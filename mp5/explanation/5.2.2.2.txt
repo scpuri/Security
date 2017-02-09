@@ -1,0 +1,3 @@
+The conversation history was found same way as in CP1, saved in /.purple/logs/jabber/
+
+Analyzing the conversations and also taking the victim’s conversation into consideration, Alice cheated on suspect with the victim. So the answer is e

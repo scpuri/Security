@@ -1,0 +1,19 @@
+USE project2;
+CREATE TABLE users
+(
+id INT NOT NULL AUTO_INCREMENT,
+username VARCHAR(32),
+password VARCHAR(32),
+passwordhash blob(16),
+PRIMARY KEY(id),
+UNIQUE(username)
+);
+
+CREATE TABLE history
+(
+id INT NOT NULL AUTO_INCREMENT,
+user_id INT,
+query VARCHAR(2048),
+PRIMARY KEY(id),
+UNIQUE(user_id)
+);

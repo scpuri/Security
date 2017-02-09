@@ -1,0 +1,1 @@
+http://ece422.org/project3/api?token=49fe48fe0a79559600f3602f91b78a75user=admin&command1=ListFiles&command2=NoOp%80%00%00%00%00%00%00%00%00%00%00%00%00X%01%00%00%00%00%00%00&command3=DeleteAllFiles

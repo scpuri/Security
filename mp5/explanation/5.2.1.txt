@@ -1,0 +1,5 @@
+At bootup, its clear that the OS system booted up was Puppylinux. The release number was found by googling ‘pup-431’ to learn that the release number is just 4.31.
+
+The dangerous behavior is some sort of data corruption, but looking at the pupsave.2fs file, it was tampered with to print a message and set the dd input to null.
+
+The primary OS was found in the other drive through the boot section and again by googling it was easy to find the suspect was using Ubuntu 15.10

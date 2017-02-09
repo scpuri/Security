@@ -1,0 +1,18 @@
+grade report for scpuri2
+
+2.1.2 SQL
+grade for 2.1.2: 5.0/5
+comment for 2.1.2: 
+
+2.1.3 Prepared Statements
+grade for 2.1.3: 0.0/5
+comment for 2.1.3: python project2.py fails   
+
+2.1.4 Input Sanitization
+grade for 2.1.4: 0.0/5
+comment for 2.1.4: 
+
+2.1.5 Token Validation
+grade for 2.1.5: 0.0/5
+comment for 2.1.5:  
+TOTAL: 5.0/20

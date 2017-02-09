@@ -1,0 +1,5 @@
+From using known_hosts.txt in the /ssh related directories, the method used was ecdsa-sha2-nistp256. So on the victim’s side the public and private key would be the files ssh_host_ecdsa_key and ssh_host_ecdsa_key.pub, which can be found on the victim’s computer in /ssh directory as well. 
+
+By looking at the .bash_history on suspects directory, we can see the tools used by the suspect to pass the document over ssh to the victim. 
+
+The password used to access the victim’s computer was the value stored in the encrypted zip file on the suspect’s computer. 

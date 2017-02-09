@@ -1,0 +1,1 @@
+The suspicious encrypted file was called password and was deleted. Using fcrackzip, the password of the encrypted file was found to be “hackers.”

